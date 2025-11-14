@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yoana\\source\\repos\\PetCare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\appointmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\appointmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\data layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\data layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\healthrecordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\healthrecordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\medicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\medicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\ownercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\ownercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\petcaredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\petcaredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\petcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\petcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\vaccinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\vaccinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\data layer\\vetvisitcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC8B6F9-E0E6-47E4-BBA3-848FB332CC7C}|Data Layer\\Data Layer.csproj|solutionrelative:data layer\\vetvisitcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\business layer\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\Migrations\\20251114104837_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data Layer\\Migrations\\20251114104837_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\business layer\\vetvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\vetvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\business layer\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\business layer\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\business layer\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\business layer\\healthrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\healthrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|c:\\users\\yoana\\source\\repos\\petcare\\business layer\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972210D0-B148-4B65-BB5F-C1984B820D48}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HealthRecordContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\HealthRecordContext.cs",
+              "RelativeDocumentMoniker": "Data Layer\\HealthRecordContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\HealthRecordContext.cs",
+              "RelativeToolTip": "Data Layer\\HealthRecordContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:59:03.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VetVisitContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\VetVisitContext.cs",
+              "RelativeDocumentMoniker": "Data Layer\\VetVisitContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\VetVisitContext.cs",
+              "RelativeToolTip": "Data Layer\\VetVisitContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:58:44.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\AppointmentContext.cs",
+              "RelativeDocumentMoniker": "Data Layer\\AppointmentContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\AppointmentContext.cs",
+              "RelativeToolTip": "Data Layer\\AppointmentContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:58:20.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\MedicationContext.cs",
+              "RelativeDocumentMoniker": "Data Layer\\MedicationContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\MedicationContext.cs",
+              "RelativeToolTip": "Data Layer\\MedicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:57:08.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VaccineContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\VaccineContext.cs",
+              "RelativeDocumentMoniker": "Data Layer\\VaccineContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\VaccineContext.cs",
+              "RelativeToolTip": "Data Layer\\VaccineContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:56:50.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PetContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\PetContext.cs",
+              "RelativeDocumentMoniker": "Data Layer\\PetContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\PetContext.cs",
+              "RelativeToolTip": "Data Layer\\PetContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:55:45.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OwnerContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\OwnerContext.cs",
+              "RelativeDocumentMoniker": "Data Layer\\OwnerContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\OwnerContext.cs",
+              "RelativeToolTip": "Data Layer\\OwnerContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:55:19.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDb.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\IDb.cs",
+              "RelativeDocumentMoniker": "Data Layer\\IDb.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\IDb.cs",
+              "RelativeToolTip": "Data Layer\\IDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:53:43.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20251114104837_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\Migrations\\20251114104837_Initial.cs",
+              "RelativeDocumentMoniker": "Data Layer\\Migrations\\20251114104837_Initial.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\Migrations\\20251114104837_Initial.cs",
+              "RelativeToolTip": "Data Layer\\Migrations\\20251114104837_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:48:37.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Data Layer",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\Data Layer.csproj",
+              "RelativeDocumentMoniker": "Data Layer\\Data Layer.csproj",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\Data Layer.csproj",
+              "RelativeToolTip": "Data Layer\\Data Layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-14T10:34:44.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PetCareDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\PetCareDbContext.cs",
+              "RelativeDocumentMoniker": "Data Layer\\PetCareDbContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\PetCareDbContext.cs",
+              "RelativeToolTip": "Data Layer\\PetCareDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:32:21.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HealthRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\HealthRecord.cs",
+              "RelativeDocumentMoniker": "Business Layer\\HealthRecord.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\HealthRecord.cs",
+              "RelativeToolTip": "Business Layer\\HealthRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:30:12.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Appointment.cs",
+              "RelativeDocumentMoniker": "Business Layer\\Appointment.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Appointment.cs",
+              "RelativeToolTip": "Business Layer\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:29:42.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Medication.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Medication.cs",
+              "RelativeDocumentMoniker": "Business Layer\\Medication.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Medication.cs",
+              "RelativeToolTip": "Business Layer\\Medication.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:29:03.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Vaccine.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Vaccine.cs",
+              "RelativeDocumentMoniker": "Business Layer\\Vaccine.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Vaccine.cs",
+              "RelativeToolTip": "Business Layer\\Vaccine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:28:41.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VetVisit.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\VetVisit.cs",
+              "RelativeDocumentMoniker": "Business Layer\\VetVisit.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\VetVisit.cs",
+              "RelativeToolTip": "Business Layer\\VetVisit.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvy0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:28:20.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Pet.cs",
+              "RelativeDocumentMoniker": "Business Layer\\Pet.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Pet.cs",
+              "RelativeToolTip": "Business Layer\\Pet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:27:35.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Owner.cs",
+              "RelativeDocumentMoniker": "Business Layer\\Owner.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Owner.cs",
+              "RelativeToolTip": "Business Layer\\Owner.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:27:26.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
