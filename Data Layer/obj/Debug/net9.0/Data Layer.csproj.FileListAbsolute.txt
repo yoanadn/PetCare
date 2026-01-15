@@ -15,3 +15,4 @@ C:\Users\Yoana\source\repos\PetCare\Data Layer\obj\Debug\net9.0\refint\Data Laye
 C:\Users\Yoana\source\repos\PetCare\Data Layer\obj\Debug\net9.0\Data Layer.pdb
 C:\Users\Yoana\source\repos\PetCare\Data Layer\obj\Debug\net9.0\Data Layer.genruntimeconfig.cache
 C:\Users\Yoana\source\repos\PetCare\Data Layer\obj\Debug\net9.0\ref\Data Layer.dll
+C:\Users\Yoana\source\repos\PetCare\Data Layer\obj\Debug\net9.0\Data Layer.sourcelink.json
