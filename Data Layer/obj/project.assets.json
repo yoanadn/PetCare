@@ -4727,23 +4727,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yoana\\.nuget\\packages\\": {},
+    "C:\\Users\\Tedi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\Data Layer.csproj",
+      "projectUniqueName": "C:\\Users\\Tedi\\source\\repos\\PetCare\\PetCare\\Data Layer\\Data Layer.csproj",
       "projectName": "Data Layer",
-      "projectPath": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\Data Layer.csproj",
-      "packagesPath": "C:\\Users\\Yoana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Data Layer\\obj\\",
+      "projectPath": "C:\\Users\\Tedi\\source\\repos\\PetCare\\PetCare\\Data Layer\\Data Layer.csproj",
+      "packagesPath": "C:\\Users\\Tedi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tedi\\source\\repos\\PetCare\\PetCare\\Data Layer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yoana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4758,8 +4758,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Business Layer.csproj": {
-              "projectPath": "C:\\Users\\Yoana\\source\\repos\\PetCare\\Business Layer\\Business Layer.csproj"
+            "C:\\Users\\Tedi\\source\\repos\\PetCare\\PetCare\\Business Layer\\Business Layer.csproj": {
+              "projectPath": "C:\\Users\\Tedi\\source\\repos\\PetCare\\PetCare\\Business Layer\\Business Layer.csproj"
             }
           }
         }
@@ -4811,7 +4811,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

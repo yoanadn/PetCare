@@ -1,0 +1,90 @@
+:root {
+  --brand-dark: #2f8fc5;
+  --brand-accent: #67b9e6;
+  --surface: #eaf7ff;
+  --ink: #12384f;
+  --btn: #3ea2d9;
+  --btn-hover: #2b8ec5;
+}
+
+html {
+  font-size: 16px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, #f7fcff 0%, #d9effc 100%);
+  color: var(--ink);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.app-navbar {
+  background: linear-gradient(90deg, #3f9fd6, #72c1e8);
+}
+
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.88) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: #fff !important;
+}
+
+.dashboard-hero {
+  background: linear-gradient(135deg, #43a7de, #86cdef);
+}
+
+.stat-card {
+  border-radius: 1rem;
+}
+
+.stat-label {
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.78rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(62, 162, 217, 0.2);
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #56b4e3;
+  box-shadow: 0 0 0 0.25rem rgba(62, 162, 217, 0.2);
+}
+
+.footer {
+  background-color: #fff8f5;
+}
+
+.btn-primary {
+  background-color: var(--btn);
+  border-color: var(--btn);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.btn-outline-primary {
+  color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}

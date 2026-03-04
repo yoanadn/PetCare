@@ -1,0 +1,24 @@
+@model Business_Layer.Owner
+@{
+    ViewData["Title"] = "Owner Details";
+}
+
+<h1 class="h3 mb-3">Owner Details</h1>
+
+<div class="card border-0 shadow-sm mb-3">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Full Name</dt>
+            <dd class="col-sm-9">@Model.FullName</dd>
+            <dt class="col-sm-3">Phone</dt>
+            <dd class="col-sm-9">@(string.IsNullOrWhiteSpace(Model.Phone) ? "-" : Model.Phone)</dd>
+            <dt class="col-sm-3">Address</dt>
+            <dd class="col-sm-9">@(string.IsNullOrWhiteSpace(Model.Address) ? "-" : Model.Address)</dd>
+            <dt class="col-sm-3">Pets</dt>
+            <dd class="col-sm-9">@Model.Pets.Count</dd>
+        </dl>
+    </div>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Back</a>

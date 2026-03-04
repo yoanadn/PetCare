@@ -1,0 +1,24 @@
+@model Business_Layer.Appointment
+@{
+    ViewData["Title"] = "Appointment Details";
+}
+
+<h1 class="h3 mb-3">Appointment Details</h1>
+
+<div class="card border-0 shadow-sm mb-3">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Pet</dt>
+            <dd class="col-sm-9">@Model.Pet?.Name</dd>
+            <dt class="col-sm-3">Date & Time</dt>
+            <dd class="col-sm-9">@Model.DateTime.ToString("yyyy-MM-dd HH:mm")</dd>
+            <dt class="col-sm-3">Location</dt>
+            <dd class="col-sm-9">@(string.IsNullOrWhiteSpace(Model.Location) ? "-" : Model.Location)</dd>
+            <dt class="col-sm-3">Reason</dt>
+            <dd class="col-sm-9">@(string.IsNullOrWhiteSpace(Model.Reason) ? "-" : Model.Reason)</dd>
+        </dl>
+    </div>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Back</a>

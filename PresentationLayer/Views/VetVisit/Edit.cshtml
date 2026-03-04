@@ -1,0 +1,46 @@
+@model Business_Layer.VetVisit
+@{
+    ViewData["Title"] = "Edit Vet Visit";
+}
+
+<h1 class="h3 mb-3">Edit Vet Visit</h1>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body">
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="mb-3">
+                <label asp-for="PetId" class="form-label">Pet</label>
+                <select asp-for="PetId" asp-items="ViewBag.PetId" class="form-select"></select>
+                <span asp-validation-for="PetId" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Date" class="form-label"></label>
+                <input asp-for="Date" type="date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Reason" class="form-label"></label>
+                <input asp-for="Reason" class="form-control" />
+                <span asp-validation-for="Reason" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="VetName" class="form-label">Vet Name</label>
+                <input asp-for="VetName" class="form-control" />
+                <span asp-validation-for="VetName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Notes" class="form-label"></label>
+                <textarea asp-for="Notes" rows="4" class="form-control"></textarea>
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
