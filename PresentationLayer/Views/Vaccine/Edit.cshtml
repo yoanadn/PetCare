@@ -1,0 +1,41 @@
+@model Business_Layer.Vaccine
+@{
+    ViewData["Title"] = "Edit Vaccine";
+}
+
+<h1 class="h3 mb-3">Edit Vaccine</h1>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body">
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="mb-3">
+                <label asp-for="PetId" class="form-label">Pet</label>
+                <select asp-for="PetId" asp-items="ViewBag.PetId" class="form-select"></select>
+                <span asp-validation-for="PetId" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Type" class="form-label"></label>
+                <input asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="DateGiven" class="form-label">Date Given</label>
+                <input asp-for="DateGiven" type="date" class="form-control" />
+                <span asp-validation-for="DateGiven" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="NextDoseDate" class="form-label">Next Dose Date</label>
+                <input asp-for="NextDoseDate" type="date" class="form-control" />
+                <span asp-validation-for="NextDoseDate" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

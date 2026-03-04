@@ -1,0 +1,54 @@
+@model PresentationLayer.Models.DashboardStatsViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="dashboard-hero p-4 p-md-5 mb-4 rounded-4 text-white">
+    <h1 class="display-6 fw-semibold mb-2">PetCare Dashboard</h1>
+    <p class="mb-0 opacity-75">Manage owners, pets, visits, appointments, and vaccinations in one place.</p>
+</div>
+
+<div class="row g-4 mb-4">
+    <div class="col-12 col-sm-6 col-xl-3">
+        <div class="card stat-card h-100 border-0 shadow-sm">
+            <div class="card-body">
+                <p class="stat-label mb-1">Owners</p>
+                <h2 class="mb-0">@Model.OwnersCount</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+        <div class="card stat-card h-100 border-0 shadow-sm">
+            <div class="card-body">
+                <p class="stat-label mb-1">Pets</p>
+                <h2 class="mb-0">@Model.PetsCount</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+        <div class="card stat-card h-100 border-0 shadow-sm">
+            <div class="card-body">
+                <p class="stat-label mb-1">Appointments</p>
+                <h2 class="mb-0">@Model.AppointmentsCount</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+        <div class="card stat-card h-100 border-0 shadow-sm">
+            <div class="card-body">
+                <p class="stat-label mb-1">Vet Visits</p>
+                <h2 class="mb-0">@Model.VetVisitsCount</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body d-flex flex-wrap gap-2">
+        <a asp-controller="Owner" asp-action="Index" class="btn btn-primary"><i class="bi bi-people me-1"></i> Owners</a>
+        <a asp-controller="Pet" asp-action="Index" class="btn btn-primary"><i class="bi bi-bug me-1"></i> Pets</a>
+        <a asp-controller="Appointment" asp-action="Index" class="btn btn-primary"><i class="bi bi-calendar-event me-1"></i> Appointments</a>
+        <a asp-controller="Vaccine" asp-action="Index" class="btn btn-primary"><i class="bi bi-shield-check me-1"></i> Vaccines</a>
+        <a asp-controller="VetVisit" asp-action="Index" class="btn btn-primary"><i class="bi bi-hospital me-1"></i> Vet Visits</a>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+@model Business_Layer.Appointment
+@{
+    ViewData["Title"] = "Create Appointment";
+}
+
+<h1 class="h3 mb-3">Create Appointment</h1>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="mb-3">
+                <label asp-for="PetId" class="form-label">Pet</label>
+                <select asp-for="PetId" asp-items="ViewBag.PetId" class="form-select"></select>
+                <span asp-validation-for="PetId" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="DateTime" class="form-label">Date and Time</label>
+                <input asp-for="DateTime" type="datetime-local" class="form-control" />
+                <span asp-validation-for="DateTime" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Location" class="form-label"></label>
+                <input asp-for="Location" class="form-control" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Reason" class="form-label"></label>
+                <input asp-for="Reason" class="form-control" />
+                <span asp-validation-for="Reason" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
