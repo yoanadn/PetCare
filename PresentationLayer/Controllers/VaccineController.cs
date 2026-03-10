@@ -54,6 +54,8 @@ namespace PresentationLayer.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PetId,Type,DateGiven,NextDoseDate")] Vaccine vaccine)
         {
+            await ValidateVaccineDatesAsync(vaccine);
+
             if (!ModelState.IsValid)
             {
                 PopulatePetsDropDownList(vaccine.PetId);
@@ -90,6 +92,8 @@ namespace PresentationLayer.Controllers
             {
                 return NotFound();
             }
+
+            await ValidateVaccineDatesAsync(vaccine);
 
             if (!ModelState.IsValid)
             {
@@ -161,6 +165,29 @@ namespace PresentationLayer.Controllers
         private bool VaccineExists(int id)
         {
             return _context.Vaccines.Any(e => e.Id == id);
+        }
+
+        private async Task ValidateVaccineDatesAsync(Vaccine vaccine)
+        {
+            var pet = await _context.Pets
+                .AsNoTracking()
+                .FirstOrDefaultAsync(p => p.Id == vaccine.PetId);
+
+            if (pet == null)
+            {
+                ModelState.AddModelError(nameof(Vaccine.PetId), "Please select a valid pet.");
+                return;
+            }
+
+            if (pet.BirthDate.HasValue && vaccine.DateGiven.Date < pet.BirthDate.Value.Date)
+            {
+                ModelState.AddModelError(nameof(Vaccine.DateGiven), "Vaccine date cannot be before the pet birth date.");
+            }
+
+            if (pet.BirthDate.HasValue && vaccine.NextDoseDate.HasValue && vaccine.NextDoseDate.Value.Date < pet.BirthDate.Value.Date)
+            {
+                ModelState.AddModelError(nameof(Vaccine.NextDoseDate), "Next dose date cannot be before the pet birth date.");
+            }
         }
     }
 }

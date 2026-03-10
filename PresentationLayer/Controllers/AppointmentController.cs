@@ -54,6 +54,8 @@ namespace PresentationLayer.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PetId,DateTime,Location,Reason")] Appointment appointment)
         {
+            await ValidateAppointmentDateAsync(appointment);
+
             if (!ModelState.IsValid)
             {
                 PopulatePetsDropDownList(appointment.PetId);
@@ -90,6 +92,8 @@ namespace PresentationLayer.Controllers
             {
                 return NotFound();
             }
+
+            await ValidateAppointmentDateAsync(appointment);
 
             if (!ModelState.IsValid)
             {
@@ -161,6 +165,24 @@ namespace PresentationLayer.Controllers
         private bool AppointmentExists(int id)
         {
             return _context.Appointments.Any(e => e.Id == id);
+        }
+
+        private async Task ValidateAppointmentDateAsync(Appointment appointment)
+        {
+            var pet = await _context.Pets
+                .AsNoTracking()
+                .FirstOrDefaultAsync(p => p.Id == appointment.PetId);
+
+            if (pet == null)
+            {
+                ModelState.AddModelError(nameof(Appointment.PetId), "Please select a valid pet.");
+                return;
+            }
+
+            if (pet.BirthDate.HasValue && appointment.DateTime.Date < pet.BirthDate.Value.Date)
+            {
+                ModelState.AddModelError(nameof(Appointment.DateTime), "Appointment date cannot be before the pet birth date.");
+            }
         }
     }
 }

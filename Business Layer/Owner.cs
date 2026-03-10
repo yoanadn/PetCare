@@ -11,13 +11,13 @@ namespace Business_Layer
 
         [Required]
         [MaxLength(100)]
-        public string FullName { get; set; }
+        public string FullName { get; set; } = string.Empty;
 
         [MaxLength(20)]
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
 
         [MaxLength(200)]
-        public string Address { get; set; }
+        public string? Address { get; set; }
 
         public virtual ICollection<Pet> Pets { get; set; }
 
