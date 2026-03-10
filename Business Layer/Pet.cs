@@ -13,14 +13,14 @@ namespace Business_Layer
 
         [Required]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(50)]
-        public string Species { get; set; } 
+        public string Species { get; set; } = string.Empty;
 
         [MaxLength(50)]
-        public string Breed { get; set; }
+        public string? Breed { get; set; }
 
         public DateTime? BirthDate { get; set; }
 
@@ -30,7 +30,7 @@ namespace Business_Layer
         public int OwnerId { get; set; }
 
         [ForeignKey(nameof(OwnerId))]
-        public virtual Owner Owner { get; set; }
+        public virtual Owner? Owner { get; set; }
 
         public virtual ICollection<VetVisit> VetVisits { get; set; }
         public virtual ICollection<Vaccine> Vaccines { get; set; }

@@ -54,6 +54,8 @@ namespace PresentationLayer.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PetId,Date,Reason,Notes,VetName")] VetVisit vetVisit)
         {
+            await ValidateVetVisitDateAsync(vetVisit);
+
             if (!ModelState.IsValid)
             {
                 PopulatePetsDropDownList(vetVisit.PetId);
@@ -90,6 +92,8 @@ namespace PresentationLayer.Controllers
             {
                 return NotFound();
             }
+
+            await ValidateVetVisitDateAsync(vetVisit);
 
             if (!ModelState.IsValid)
             {
@@ -161,6 +165,24 @@ namespace PresentationLayer.Controllers
         private bool VetVisitExists(int id)
         {
             return _context.VetVisits.Any(e => e.Id == id);
+        }
+
+        private async Task ValidateVetVisitDateAsync(VetVisit vetVisit)
+        {
+            var pet = await _context.Pets
+                .AsNoTracking()
+                .FirstOrDefaultAsync(p => p.Id == vetVisit.PetId);
+
+            if (pet == null)
+            {
+                ModelState.AddModelError(nameof(VetVisit.PetId), "Please select a valid pet.");
+                return;
+            }
+
+            if (pet.BirthDate.HasValue && vetVisit.Date.Date < pet.BirthDate.Value.Date)
+            {
+                ModelState.AddModelError(nameof(VetVisit.Date), "Visit date cannot be before the pet birth date.");
+            }
         }
     }
 }

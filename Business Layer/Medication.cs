@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -13,14 +13,14 @@ namespace Business_Layer
         public int PetId { get; set; }
 
         [ForeignKey(nameof(PetId))]
-        public virtual Pet Pet { get; set; }
+        public virtual Pet? Pet { get; set; }
 
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [MaxLength(50)]
-        public string Dosage { get; set; } 
+        public string? Dosage { get; set; }
 
         public int DurationDays { get; set; }
 

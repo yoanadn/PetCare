@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -13,20 +13,20 @@ namespace Business_Layer
         public int PetId { get; set; }
 
         [ForeignKey(nameof(PetId))]
-        public virtual Pet Pet { get; set; }
+        public virtual Pet? Pet { get; set; }
 
         [Required]
         public DateTime Date { get; set; }
 
         [Required]
         [MaxLength(200)]
-        public string Reason { get; set; }
+        public string Reason { get; set; } = string.Empty;
 
         [MaxLength(1000)]
-        public string Notes { get; set; }
+        public string? Notes { get; set; }
 
         [MaxLength(100)]
-        public string VetName { get; set; }
+        public string? VetName { get; set; }
 
         public bool IsFollowUpNeeded()
         {
@@ -39,7 +39,7 @@ namespace Business_Layer
                 return false;
 
             string lower = Reason.ToLower();
-            return lower.Contains("Ğ¾Ğ¿ĞµÑ€Ğ°Ñ†Ğ¸Ñ") || lower.Contains("surgery");
+            return lower.Contains("îïåğàöèÿ") || lower.Contains("surgery");
         }
     }
 }

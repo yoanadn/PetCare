@@ -54,14 +54,29 @@ namespace PresentationLayer.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Name,Species,Breed,BirthDate,Weight,OwnerId")] Pet pet)
         {
+            if (!_context.Owners.Any(o => o.Id == pet.OwnerId))
+            {
+                ModelState.AddModelError(nameof(Pet.OwnerId), "Please select a valid owner.");
+            }
+
             if (!ModelState.IsValid)
             {
                 PopulateOwnersDropDownList(pet.OwnerId);
                 return View(pet);
             }
 
-            _context.Add(pet);
-            await _context.SaveChangesAsync();
+            _context.Pets.Add(pet);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException)
+            {
+                ModelState.AddModelError(string.Empty, "Unable to save pet. Please check the selected owner.");
+                PopulateOwnersDropDownList(pet.OwnerId);
+                return View(pet);
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
@@ -89,6 +104,11 @@ namespace PresentationLayer.Controllers
             if (id != pet.Id)
             {
                 return NotFound();
+            }
+
+            if (!_context.Owners.Any(o => o.Id == pet.OwnerId))
+            {
+                ModelState.AddModelError(nameof(Pet.OwnerId), "Please select a valid owner.");
             }
 
             if (!ModelState.IsValid)
@@ -162,7 +182,7 @@ namespace PresentationLayer.Controllers
                 .AsNoTracking()
                 .ToList();
 
-            ViewData["OwnerId"] = new SelectList(ownersQuery, "Id", "FullName", selectedOwner);
+            ViewBag.Owners = new SelectList(ownersQuery, "Id", "FullName", selectedOwner);
         }
 
         private bool PetExists(int id)

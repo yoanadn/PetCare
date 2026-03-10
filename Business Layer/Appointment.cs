@@ -13,16 +13,16 @@ namespace Business_Layer
         public int PetId { get; set; }
 
         [ForeignKey(nameof(PetId))]
-        public virtual Pet Pet { get; set; }
+        public virtual Pet? Pet { get; set; }
 
         [Required]
         public DateTime DateTime { get; set; }
 
         [MaxLength(200)]
-        public string Location { get; set; }
+        public string? Location { get; set; }
 
         [MaxLength(200)]
-        public string Reason { get; set; }
+        public string? Reason { get; set; }
 
         public bool IsUpcoming()
         {

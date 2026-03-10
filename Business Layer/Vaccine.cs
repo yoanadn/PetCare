@@ -13,11 +13,11 @@ namespace Business_Layer
         public int PetId { get; set; }
 
         [ForeignKey(nameof(PetId))]
-        public virtual Pet Pet { get; set; }
+        public virtual Pet? Pet { get; set; }
 
         [Required]
         [MaxLength(100)]
-        public string Type { get; set; } 
+        public string Type { get; set; } = string.Empty;
 
         [Required]
         public DateTime DateGiven { get; set; }
